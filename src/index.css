@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
+
+#main-loyout{
+    width: 100%;
+    min-height: 100dvh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#NavBar{
+    grid-column: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4rem;
+}
+
+#nav-title{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+#nav-title img{
+    width: 1.5rem;
+    
+}
+
+#nav-title span{
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color:rgba(60, 60, 67);
+}
+
+#search-container{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 8%;
+}
+
+#search-container input{
+    height: 2.5rem;
+    width: 80%;
+    padding: 1rem;
+    border: none;
+    background-color: #f6f6f7;
+    border-radius: 10px;
+}
+
+#menu-labels{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+}
+
+#menu-labels .menu-label{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:rgba(60, 60, 67);
+}
+
+#social-imgs{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: flex-end ;
+    gap: 1rem;
+}
+
+#social-imgs img{
+    width: 1.5rem;
+}
+
+#contentBox{
+    width: 100%;
+    height: 50dvh;
+    display: flex;
+    flex-direction: row;
+}
+
+#textContent{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+#textContent h1{
+    font-size: 3.5rem;
+    background-image: linear-gradient(10deg, #279DE5 0%, #C423DD  60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#textContent p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:rgb(94, 94, 97);
+
+}
+
+#title-text p{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color:rgba(60, 60, 67);
+
+}
+
+#content-gradient{
+    width: 40%;
+}
+
+#content-gradient img{
+    height: 100%;
+    background: radial-gradient(rgb(235, 79, 170) 70px, rgb(107, 177, 224) 5%, #ffffff 72%);
+}
+
+#label-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+#label-btn .label-color{
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 0.6rem;
+    background-color: #3c61da;
+    color: white;
+}
+
+#label-btn .label-color:hover{
+    
+    background-color: #e4e4e4;
+    color: black;
+}
+
+#conteiner-cards{
+    width: 100%;
+    height: 50dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    
+}
+
+#conteiner-cards .box-card{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #f6f6f7;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#conteiner-cards .box-card .icon-box{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+}
+
+#conteiner-cards .box-card .icon-box .img-icon{
+    font-size: 1.5rem;
+}
+
+#conteiner-cards .box-card .text-box{
+    display: flex; 
+    flex-direction: column;
+}
+
+#conteiner-cards .box-card .text-box .text-content{
+    color:rgba(60, 60, 67);
+}
+
+#conteiner-cards .box-card .text-box .text-title{
+    padding-top: 0.5rem;
+    color:rgb(31, 31, 31);
+}
+
+
+
